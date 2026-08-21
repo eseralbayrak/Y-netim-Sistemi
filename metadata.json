@@ -1,0 +1,6 @@
+{
+  "name": "Yönetim Sistemi",
+  "description": "Yönetim Sistemi — Girdi Kalite, Depo, Yarı Mamül & Stok Yönetim Sistemi",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

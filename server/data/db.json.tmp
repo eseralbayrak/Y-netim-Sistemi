@@ -1,0 +1,102 @@
+{
+  "receipts": [
+    {
+      "firma": "KIRPART",
+      "malzemeKodu": "A3HG6 HR BK23591 ( PA66-GF30 ) BASF ULTRAMİD HAMMADDE",
+      "malzemeTipi": "HAMMADDE",
+      "birim": "KG",
+      "siparisNo": "k-013",
+      "irsaliyeNo": "20261525",
+      "lotNo": "4CXYZ66281256",
+      "gelenMiktar": 1000,
+      "girisTarihi": "2026-08-19",
+      "ambalajKontrol": true,
+      "analizRaporuVar": true,
+      "coa": {},
+      "durum": "DEPODA",
+      "id": "GF-1787115666731-16621c",
+      "olusturmaTarihi": "2026-08-19T05:01:06.731Z",
+      "kontrolTarihi": "2026-08-19T05:01:11.182Z",
+      "etiketBasimTarihi": "2026-08-19T05:08:04.167Z",
+      "ambalajMiktari": 1000,
+      "etiketSayisi": 1
+    }
+  ],
+  "movements": [
+    {
+      "id": "MV-1787116731238-c6bd91",
+      "tip": "CIKIS",
+      "lotNo": "4CXYZ66281256",
+      "malzemeKodu": "A3HG6 HR BK23591 ( PA66-GF30 ) BASF ULTRAMİD HAMMADDE",
+      "miktar": 25,
+      "tarih": "2026-08-19T05:18:51.238Z"
+    },
+    {
+      "id": "MV-1787116730566-0a5234",
+      "tip": "CIKIS",
+      "lotNo": "4CXYZ66281256",
+      "malzemeKodu": "A3HG6 HR BK23591 ( PA66-GF30 ) BASF ULTRAMİD HAMMADDE",
+      "miktar": 25,
+      "tarih": "2026-08-19T05:18:50.566Z"
+    },
+    {
+      "id": "MV-1787116730149-79f390",
+      "tip": "CIKIS",
+      "lotNo": "4CXYZ66281256",
+      "malzemeKodu": "A3HG6 HR BK23591 ( PA66-GF30 ) BASF ULTRAMİD HAMMADDE",
+      "miktar": 25,
+      "tarih": "2026-08-19T05:18:50.149Z"
+    },
+    {
+      "id": "MV-1787116729698-d475e4",
+      "tip": "CIKIS",
+      "lotNo": "4CXYZ66281256",
+      "malzemeKodu": "A3HG6 HR BK23591 ( PA66-GF30 ) BASF ULTRAMİD HAMMADDE",
+      "miktar": 25,
+      "tarih": "2026-08-19T05:18:49.698Z"
+    },
+    {
+      "id": "MV-1787116729275-d19362",
+      "tip": "CIKIS",
+      "lotNo": "4CXYZ66281256",
+      "malzemeKodu": "A3HG6 HR BK23591 ( PA66-GF30 ) BASF ULTRAMİD HAMMADDE",
+      "miktar": 25,
+      "tarih": "2026-08-19T05:18:49.275Z"
+    },
+    {
+      "id": "MV-1787116725009-b0f011",
+      "tip": "CIKIS",
+      "lotNo": "4CXYZ66281256",
+      "malzemeKodu": "A3HG6 HR BK23591 ( PA66-GF30 ) BASF ULTRAMİD HAMMADDE",
+      "miktar": 25,
+      "tarih": "2026-08-19T05:18:45.009Z"
+    },
+    {
+      "id": "MV-1787116722893-c4d7e8",
+      "tip": "CIKIS",
+      "lotNo": "4CXYZ66281256",
+      "malzemeKodu": "A3HG6 HR BK23591 ( PA66-GF30 ) BASF ULTRAMİD HAMMADDE",
+      "miktar": 25,
+      "tarih": "2026-08-19T05:18:42.893Z"
+    },
+    {
+      "id": "MV-1787115671182-c7a488",
+      "tip": "GIRIS",
+      "lotNo": "4CXYZ66281256",
+      "malzemeKodu": "A3HG6 HR BK23591 ( PA66-GF30 ) BASF ULTRAMİD HAMMADDE",
+      "miktar": 1000,
+      "tarih": "2026-08-19T05:01:11.182Z",
+      "aciklama": "Giriş fişi 20261525 - kalite onaylı"
+    }
+  ],
+  "lots": {
+    "4CXYZ66281256": {
+      "lotNo": "4CXYZ66281256",
+      "malzemeKodu": "A3HG6 HR BK23591 ( PA66-GF30 ) BASF ULTRAMİD HAMMADDE",
+      "firma": "KIRPART",
+      "kalanMiktar": 825,
+      "ilkGirisMiktari": 1000,
+      "girisTarihi": "2026-08-19"
+    }
+  }
+}

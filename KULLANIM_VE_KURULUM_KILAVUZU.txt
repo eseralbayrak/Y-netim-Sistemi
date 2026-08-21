@@ -1,0 +1,71 @@
+================================================================================
+          B.R. LEVENT PLASTİK · YÖNETİM SİSTEMİ
+    WINDOWS TEK TIKLA ÇALIŞTIRMA, OTOMATİK BAŞLATMA VE BELGE YÖNETİMİ
+================================================================================
+
+Bu proje; Windows bilgisayarınızda (örneğin C:\ veya D:\ sürücüsünde) tek tıkla 
+kurulup çalışabilecek, bilgisayar yeniden başlasa bile otomatik devreye girebilecek 
+ve yüklenen tüm PDF/doküman dosyalarının (MSDS, TDS, CoA, Yardımcı Parçalar) 
+nereye kaydedileceğini tamamen sizin belirleyebileceğiniz şekilde tasarlanmıştır.
+
+--------------------------------------------------------------------------------
+1. İLK KURULUM VE BAŞLATMA (TEK TIKLA)
+--------------------------------------------------------------------------------
+1) Proje klasörünü bilgisayarınızda istediğiniz bir konuma (örn: C:\B_R_Levent_Plastik) çıkartın.
+2) "KURULUM_VE_BASLAT.bat" dosyasına çift tıklayın.
+   - Bu işlem Node.js ortamını kontrol eder, gerekli kütüphaneleri otomatik yükler.
+   - Arayüzü derler ve tüm veri klasörlerini hazırlar.
+   - Masaüstünüze "B.R. Levent Plastik - Yönetim Sistemi" kısayolunu oluşturur.
+   - Web tarayıcınızda sistemi (http://localhost:3000) otomatik olarak açar.
+
+* Varsayılan Giriş Bilgileri:
+  - Kullanıcı Adı : admin
+  - Şifre          : admin123
+
+--------------------------------------------------------------------------------
+2. BİLGİSAYAR AÇILDIĞINDA OTOMATİK ÇALIŞMA AYARI
+--------------------------------------------------------------------------------
+Bilgisayarınız her açıldığında veya yeniden başladığında sistemin arka planda 
+otomatik ve sessizce devreye girmesini isterseniz:
+
+1) "OTOMATIK_BASLAT_KUR.bat" dosyasına çift tıklayın.
+2) Artık Windows her başladığında sistem arka planda hazır olacaktır.
+3) Otomatik başlatmayı iptal etmek isterseniz "OTOMATIK_BASLAT_KALDIR.bat" dosyasını çalıştırın.
+
+--------------------------------------------------------------------------------
+3. ÖZEL DOKÜMAN VE PDF DEPOLAMA KONUMLARI (MSDS, TDS, COA, YARDIMCI PARÇALAR)
+--------------------------------------------------------------------------------
+Sisteme yüklenen veya bilgisayarınızda önceden var olan PDF dosyalarının saklanacağı 
+klasörleri dilediğiniz gibi özelleştirebilirsiniz:
+
+1) Sisteme Yönetici veya Giriş Kalite rolüyle giriş yapın.
+2) Sol menüden "Yönetim Paneli"ne tıklayın.
+3) "4. 📂 Belge & PDF Dizin Konumları" dalını açın.
+4) Burada aşağıdaki kategoriler için ayrı ayrı Windows klasör yolları belirleyebilirsiniz:
+   - 🧪 MSDS (Güvenlik Bilgi Formları) -> Örn: C:\Arsiv\MSDS
+   - 📋 TDS (Teknik Bilgi & Spekt Formları) -> Örn: C:\Arsiv\TDS
+   - 📜 COA (Giriş Kalite Analiz Sertifikaları) -> Örn: C:\Arsiv\COA
+   - 🔩 Yardımcı Parça Rapor & Çizimleri -> Örn: C:\Arsiv\YardimciParca
+   - 🔬 Diğer Kalite Raporları (Final Kontrol / Kaplama) -> Örn: C:\Arsiv\KaliteRaporlari
+   - 📁 Genel Arşiv & Ek Dokümanlar -> Örn: C:\Arsiv\Genel
+5) Klasör yolunu yazıp "💾 Konumları Kaydet" butonuna bastığınızda, sistem klasörü otomatik oluşturur ve doğrular.
+
+--------------------------------------------------------------------------------
+4. MEVCUT DOSYALARI OTOMATİK TARAMA VE SİSTEM KAYITLARIYLA EŞLEŞTİRME
+--------------------------------------------------------------------------------
+Eğer belirlediğiniz klasörlerde önceden sakladığınız PDF dosyaları varsa:
+
+1) Yönetim Paneli > "Belge & PDF Dizin Konumları" altındaki "🔍 Mevcut Dosyaları Tara" bölümüne gelin.
+2) Taramak istediğiniz klasörü (veya "Tüm Konumları") seçin ve "🚀 Taramayı Başlat" butonuna tıklayın.
+3) Akıllı eşleştirme motoru dosya isimlerini analiz eder:
+   - Malzeme Kodu, Parça Kodu, Lot No veya İrsaliye No ile tam eşleşenleri (%100) anında bulur.
+   - Benzer isimleri (Örn: hammadde adı veya firma benzerliği) "Olası Eşleşme" olarak listeler.
+4) Eşleşen dosyaları seçip "🚀 Seçilen Dosyaları Sisteme Bağla" butonuna bastığınızda, tüm PDF belgeleri ilgili hammadde kartlarına, yardımcı parçalara veya giriş kalite partilerine tek tıkla bağlanır!
+
+--------------------------------------------------------------------------------
+5. GÜNLÜK KULLANIM KISAYOLLARI
+--------------------------------------------------------------------------------
+- "BASLAT.bat"           : Sistemi manuel olarak başlatır ve tarayıcıda açar.
+- "DURDUR.bat"           : Arka planda çalışan sunucuyu güvenle kapatır.
+- "start-hidden.vbs"     : Sistemi siyah komut penceresi olmadan arka planda çalıştırır.
+================================================================================

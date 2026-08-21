@@ -1,0 +1,95 @@
+{
+  "receipts": [
+    {
+      "firma": "BİESTERFELD PLASTİK (BV)",
+      "malzemeKodu": "ZYTEL® ST801AHS BK010",
+      "malzemeTipi": "HAMMADDE",
+      "birim": "KG",
+      "siparisNo": "26/H-001",
+      "irsaliyeNo": "46546546",
+      "lotNo": "YUUIHII",
+      "gelenMiktar": 100,
+      "girisTarihi": "2026-08-19",
+      "ambalajKontrol": false,
+      "analizRaporuVar": false,
+      "coa": {},
+      "durum": "REDDEDILDI",
+      "id": "GF-1787150830362-5ce40a",
+      "olusturmaTarihi": "2026-08-19T14:47:10.362Z",
+      "redNedeni": "XXXXLKLKJ",
+      "kontrolTarihi": "2026-08-19T14:47:33.465Z",
+      "kontrolEden": "admin"
+    },
+    {
+      "firma": "BİESTERFELD PLASTİK (BV)",
+      "malzemeKodu": "ZYTEL® ST801AHS BK010",
+      "malzemeTipi": "HAMMADDE",
+      "birim": "KG",
+      "siparisNo": "26/H-001",
+      "irsaliyeNo": "IRS202600002528",
+      "lotNo": "DENEMELOT",
+      "gelenMiktar": 100,
+      "girisTarihi": "2026-08-19",
+      "ambalajKontrol": true,
+      "analizRaporuVar": true,
+      "coa": {},
+      "durum": "DEPODA",
+      "id": "GF-1787145126540-795154",
+      "olusturmaTarihi": "2026-08-19T13:12:06.540Z",
+      "kontrolTarihi": "2026-08-19T13:12:09.750Z",
+      "etiketBasimTarihi": "2026-08-19T13:12:13.281Z",
+      "ambalajMiktari": 100,
+      "etiketSayisi": 1
+    }
+  ],
+  "movements": [
+    {
+      "id": "MV-1787231253205-6ef3e1",
+      "tip": "CIKIS",
+      "lotNo": "DENEMELOT",
+      "malzemeKodu": "ZYTEL® ST801AHS BK010",
+      "miktar": 25,
+      "tarih": "2026-08-20T13:07:33.205Z"
+    },
+    {
+      "id": "MV-RET-1787150851888-e0ba16",
+      "tip": "RET",
+      "lotNo": "YUUIHII",
+      "malzemeKodu": "ZYTEL® ST801AHS BK010",
+      "miktar": 100,
+      "tarih": "2026-08-19T14:47:31.887Z",
+      "kullanici": "admin",
+      "aciklama": "[RET BÖLGESİ / KARANTİNA] Hammadde Red Nedeni: XXXXLKLKJ (Firma: BİESTERFELD PLASTİK (BV))"
+    },
+    {
+      "id": "MV-1787145129750-e4bdde",
+      "tip": "GIRIS",
+      "lotNo": "DENEMELOT",
+      "malzemeKodu": "ZYTEL® ST801AHS BK010",
+      "miktar": 100,
+      "tarih": "2026-08-19T13:12:09.750Z",
+      "aciklama": "Giriş fişi IRS202600002528 - kalite onaylı"
+    }
+  ],
+  "lots": {
+    "DENEMELOT": {
+      "lotNo": "DENEMELOT",
+      "malzemeKodu": "ZYTEL® ST801AHS BK010",
+      "firma": "BİESTERFELD PLASTİK (BV)",
+      "kalanMiktar": 75,
+      "ilkGirisMiktari": 100,
+      "girisTarihi": "2026-08-19",
+      "gelenMiktar": 100,
+      "irsaliyeNo": "IRS202600002528"
+    },
+    "YUUIHII": {
+      "lotNo": "YUUIHII",
+      "malzemeKodu": "ZYTEL® ST801AHS BK010",
+      "firma": "BİESTERFELD PLASTİK (BV)",
+      "kalanMiktar": 100,
+      "ilkGirisMiktari": 100,
+      "girisTarihi": "2026-08-19",
+      "depoLokasyonu": "Ret Karantina Deposu"
+    }
+  }
+}

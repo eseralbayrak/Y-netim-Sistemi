@@ -1,0 +1,42 @@
+[
+  {
+    "id": "U-1784704828476-73808f",
+    "username": "admin",
+    "passwordHash": "622d277c7cd0c8118a7e5ed23eb5ccc9:f8543788587e0137d555ad0ef57e2e24ccb13948bbb9e82cb727ec9df19ce0679a3356f87cc1fc7ded2d73a9bd4e0f7c55ec2352c9ba1420d0d95f4f2bf2691e",
+    "role": "Yönetici",
+    "active": true,
+    "createdAt": "2026-07-22T07:20:28.535Z"
+  },
+  {
+    "id": "U-1784729249532-5e8df5",
+    "username": "depo",
+    "passwordHash": "33a5150d2c2167cd19efe9c1f342768e:48c103288aab8d50863db67dcbf68fe47e2a76c956efa56e7e1dd463404a7a0999e656cbdb20626041b23271d86885653d2998da2ef65ee0ca05356a524987fe",
+    "role": "Depo",
+    "active": true,
+    "createdAt": "2026-07-22T14:07:29.631Z"
+  },
+  {
+    "id": "U-1784729249850-5bdc87",
+    "username": "kalite",
+    "passwordHash": "757392c4ad90d6d75cc2e3838a459aef:c7ae4e1f787659e02520f8eaf89ae0baff5629cbb68d0b9c212ef31912e77b626220e87c864f29040ecdf93b4672c6869973a77fec2b1717c6881dd51dc5bd55",
+    "role": "Giriş Kalite",
+    "active": true,
+    "createdAt": "2026-07-22T14:07:29.963Z"
+  },
+  {
+    "id": "U-1784892227458-dnbq",
+    "username": "satinalma",
+    "passwordHash": "dfd1479406b9987156f9269aed23b069:6b17c7edf6922adb1a094746c0c43166a203b58c8facfde0ba2a2e2627d79274a334286da32a580447509b248a5416f8809410691a30b491118617b8fe0a3f9e",
+    "role": "Satın Alma",
+    "active": true,
+    "createdAt": "2026-07-24T11:23:47.503Z"
+  },
+  {
+    "id": "U-1787053927407-non5",
+    "username": "uretim",
+    "role": "Üretim",
+    "active": true,
+    "createdAt": "2026-08-18T11:52:07.407Z",
+    "passwordHash": "d24b84193bebdcc2d546fbed91175a88:b4f471f88ab9faf5919d9fbe8f7c05596454c683cd2495eaf9663c48dfc3df42468b57c85c6287bc18b43969267242ee36c8de0de64560ddbba4792ea6a17f7f"
+  }
+]

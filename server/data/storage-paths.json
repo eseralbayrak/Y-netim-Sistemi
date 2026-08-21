@@ -1,0 +1,44 @@
+{
+  "msds": {
+    "id": "msds",
+    "label": "MSDS (Güvenlik Bilgi Formları)",
+    "path": "C:\\yönetim-sistemi\\arsiv\\MSDS",
+    "defaultPath": "data/uploads/msds",
+    "description": "Hammadde ve kimyasallara ait Güvenlik Bilgi Formları (MSDS) PDF dosyaları"
+  },
+  "tds": {
+    "id": "tds",
+    "label": "TDS (Teknik Bilgi Formları)",
+    "path": "C:\\yönetim-sistemi\\arsiv\\TDS",
+    "defaultPath": "data/uploads/tds",
+    "description": "Hammadde ve malzemelere ait Teknik Spekt ve Veri Sayfaları (TDS) PDF dosyaları"
+  },
+  "coa": {
+    "id": "coa",
+    "label": "COA (Analiz Sertifikaları - Giriş Kalite)",
+    "path": "C:\\yönetim-sistemi\\arsiv\\COA",
+    "defaultPath": "data/uploads/coa",
+    "description": "Tedarikçi Giriş Kalite partilerine ait Analiz Sertifikası (CoA) PDF dosyaları"
+  },
+  "yardimciParca": {
+    "id": "yardimciParca",
+    "label": "Yardımcı Parça Rapor ve Dokümanları",
+    "path": "C:\\yönetim-sistemi\\arsiv\\YardimciParca",
+    "defaultPath": "data/uploads/yardimciParca",
+    "description": "Civata, somun, koli, ambalaj ve yardımcı parçalara ait teknik çizim, TDS ve spekt belgeleri"
+  },
+  "kaliteRaporlari": {
+    "id": "kaliteRaporlari",
+    "label": "Giriş Kalite Diğer Raporları (Final Kontrol / Kaplama)",
+    "path": "C:\\yönetim-sistemi\\arsiv\\KaliteRaporlari",
+    "defaultPath": "data/uploads/kaliteRaporlari",
+    "description": "Partilere ait Final Kontrol, Kaplama ve Malzeme Test Raporları"
+  },
+  "genel": {
+    "id": "genel",
+    "label": "Genel Arşiv & Ek Dokümanlar",
+    "path": "C:\\yönetim-sistemi\\arsiv\\GenelArsiv",
+    "defaultPath": "data/uploads/genel",
+    "description": "Diğer ek belgeler, IATF dokümanları ve genel arşiv dosyaları"
+  }
+}

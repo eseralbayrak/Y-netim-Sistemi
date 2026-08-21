@@ -1,0 +1,13 @@
+{
+  "name": "gkys-solo-server",
+  "version": "1.0.0",
+  "description": "GKYS Solo paylaşımlı arka uç sunucusu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
